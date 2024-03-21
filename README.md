@@ -1,1 +1,2 @@
-JS Folder
+#Java Script
+Java script excercise 
