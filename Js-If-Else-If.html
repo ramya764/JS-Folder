@@ -1,0 +1,41 @@
+<!-- if(expression1){  
+    //content to be evaluated if expression1 is true  
+}  
+else if(expression2){  
+   //content to be evaluated if expression2 is true  
+}  
+else if(expression3){  
+   //content to be evaluated if expression3 is true  
+}  
+else{  
+   //content to be evaluated if no expression is true  
+}   -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS-IF-Elseif-Statement</title>
+    <script>
+        // If Else IF Condition //
+        var marks = prompt("Enter your Percentage : ");
+
+        if (marks >= 80 && marks <= 100) {
+            document.write("You are in Topper.");
+        }else  if (marks >= 60 && marks < 80) {
+            document.write("You are in 1st Class.");
+        }else if (marks >= 45 && marks < 60) {
+            document.write("You are in 2nd Class.");
+        }else if (marks >= 33 && marks < 45) {
+            document.write("You are in 3rd Class");
+        }else if (marks < 33) {
+            document.write("You are Fail.wirte better in next Exam...!");
+        }else {
+            document.write("Please Enter Valid Percentage.");  
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>
